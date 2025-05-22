@@ -11,7 +11,7 @@
     {
       "customType": "regex",
       "managerFilePatterns": [
-        "/deps\\\\.properties/"
+        "/deps\\.properties/"
       ],
       "matchStrings": [
         "(^|\\n)\\s*renovate\\.version\\s*=\\s*(?<currentValue>.+)\\s*(\\n|$)"
