@@ -1,1 +1,28 @@
-{}
+{
+  "packageRules": [
+    {
+      "matchDepNames": ["renovate"],
+      "minimumReleaseAge": "2 weeks",
+      "internalChecksFilter": "strict"
+    }
+  ],
+
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/deps\\\\.properties/"
+      ],
+      "matchStrings": [
+        "(^|\\n)\\s*renovate\\.version\\s*=\\s*(?<currentValue>.+)\\s*(\\n|$)"
+      ],
+      "datasourceTemplate": "npm",
+      "depNameTemplate": "renovate",
+      "versioningTemplate": "semver"
+    }
+  ],
+
+  "separateMultipleMajor": true,
+  "separateMajorMinor": true,
+  "separateMinorPatch": true
+}
