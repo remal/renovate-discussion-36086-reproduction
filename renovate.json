@@ -10,5 +10,6 @@
   "separateMultipleMajor": true,
   "separateMajorMinor": true,
   "separateMinorPatch": true,
+  "rebaseWhen": "behind-base-branch",
   "prHourlyLimit": 0
 }
