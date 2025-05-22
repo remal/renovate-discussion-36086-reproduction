@@ -1,4 +1,4 @@
-# https://github.com/renovatebot/renovate/discussions/36086
+# 36086
 
 ## Current behavior
 
