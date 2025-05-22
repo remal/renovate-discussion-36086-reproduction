@@ -1,4 +1,6 @@
 {
+  "enabled": false,
+
   "packageRules": [
     {
       "matchDepNames": ["renovate"],
