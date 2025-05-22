@@ -5,7 +5,7 @@
       "minimumReleaseAge": "2 weeks",
       "internalChecksFilter": "strict"
     }
-  ]
+  ],
 
   "separateMultipleMajor": true,
   "separateMajorMinor": true,
