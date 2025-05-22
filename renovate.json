@@ -9,5 +9,6 @@
 
   "separateMultipleMajor": true,
   "separateMajorMinor": true,
-  "separateMinorPatch": true
+  "separateMinorPatch": true,
+  "prHourlyLimit": 0
 }
