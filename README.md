@@ -6,6 +6,9 @@
 2. The last major and minor updates are always less than 2 weeks old, so Renovate does not create PRs for them.
 4. I get PRs only for very old versions.
 
+On 2025-05-22 15:37
+* Current dependency version: `40.3.4`
+
 ## Expected behavior
 
 1. Let's say, there is a major update.
